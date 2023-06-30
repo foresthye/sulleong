@@ -384,7 +384,7 @@ reply_input_08.addEventListener("keyup", function(event) {
         document.querySelectorAll(".room_left, .room_right").forEach(function(room) {
         room.style.animation = "blink 3s infinite alternate";
         room.style.boxShadow = "2px 3px 5px 2px #a9a93b";
-        document.querySelector("body").style.backgroundImage=  "url('/img/출금쥐.gif')";
+        document.querySelector("body").style.backgroundImage=  "url('./img/출금쥐.gif')";
         document.querySelector(".day_hash_tag").style.display = "none"; // hash tag 밤낮 전환
         document.querySelector(".night_hash_tag").style.display = "block";  // hash tag 밤낮 전환
         });
@@ -399,7 +399,7 @@ reply_input_08.addEventListener("keyup", function(event) {
         document.querySelectorAll(".room_left, .room_right").forEach(function(room) {
         room.style.animation = "";
         room.style.boxShadow = "";
-        document.querySelector("body").style.backgroundImage=  "url('/img/야자배경.jpg')";
+        document.querySelector("body").style.backgroundImage=  "url('./img/야자배경.jpg')";
         document.querySelector(".day_hash_tag").style.display = "block";  // hash tag 밤낮 전환
         document.querySelector(".night_hash_tag").style.display = "none";  // hash tag 밤낮 전환
         })   

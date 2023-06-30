@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("/img/야자배경.jpg");
+    background-image: url("./img/야자배경.jpg");
     background-attachment: fixed;
     background-size: 100%;
     overflow: hidden;
