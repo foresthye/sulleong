@@ -349,8 +349,7 @@ input:checked + .slider:before {
     font-size: 12px;
     color: #fff;
     line-height:30px ;
-    
-    
+
     
 }
 
@@ -381,7 +380,7 @@ input:checked + .slider:before {
 
 @font-face {
     font-family : 'font_01';
-    src : url(/HSSaemaul-Regular.ttf)
+    src : url("./HSSaemaul-Regular.ttf")
   }
 
 .day_hash_tag button{
